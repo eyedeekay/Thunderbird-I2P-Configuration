@@ -1,4 +1,3 @@
-/* edgar default CSS file */
 
 body {
     font-family: "Roboto";
@@ -31,7 +30,6 @@ p {
 }
 
 img {
-    float: left;
     top: 5%;
     left: 5%;
     max-width: 60%;
