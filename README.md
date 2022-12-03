@@ -25,6 +25,8 @@ A guide to configuring Thunderbird to use in-I2P mail with screenshots in stuff.
 ## plain-text table of values:
 
 ```md
+
++------------------------------+-------------------------+------------+
 | Field:                       | Value:                  | Example:   |
 +------------------------------+-------------------------+------------+
 | Incoming Server              | Always POP              | POP        |
@@ -35,6 +37,7 @@ A guide to configuring Thunderbird to use in-I2P mail with screenshots in stuff.
 | Incoming Username            | Username w/o mail.i2p   | idki2p     |
 +------------------------------+-------------------------+------------+
 
++------------------------------+-------------------------+------------+
 | Field:                       | Value:                  | Example:   |
 +------------------------------+-------------------------+------------+
 | Outgoing Server              | Always SMTP             | SMTP       |
