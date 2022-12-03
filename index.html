@@ -87,7 +87,7 @@
       <strong>
         4.
       </strong>
-      Click next to continue to the final page.
+      You will see a scary warning page, which you may ignore. I2P mail uses I2P for transport security
     </p>
     <p>
       <img src="thunderbird-3.png" alt="The fourth step is to click next" />
@@ -101,19 +101,28 @@
     <p>
       <img src="thunderbird-4.png" alt="This is what it looks like when you&rsquo;re done." />
     </p>
-    <p>
-      Now that you&rsquo;ve
-    </p>
-    <p>
-      <strong>
-        *
-      </strong>
+    <h2>
       plain-text table of values:
-    </p>
-    <pre><code class="language-md">| Field:     | Value:                  | Example:   |
-+------------+-------------------------+------------+
-|
-|
+    </h2>
+    <pre><code class="language-md">| Field:                       | Value:                  | Example:   |
++------------------------------+-------------------------+------------+
+| Incoming Server              | Always POP              | POP        |
+| Incoming Hostname            | Default 127.0.0.1       | 127.0.0.1  |
+| Incoming Port                | Default 7660            | 7660       |
+| Incoming Connection Security | Always None             | None       |
+| Incoming Authentication      | Always Password         | trustno1   |
+| Incoming Username            | Username w/o mail.i2p   | idki2p     |
++------------------------------+-------------------------+------------+
+
+| Field:                       | Value:                  | Example:   |
++------------------------------+-------------------------+------------+
+| Outgoing Server              | Always SMTP             | SMTP       |
+| Outgoing Hostname            | Default 127.0.0.1       | 127.0.0.1  |
+| Outgoing Port                | Default 7659            | 7659       |
+| Outgoing Connection Security | Always None             | None       |
+| Outgoing Authentication      | Always Password         | trustno1   |
+| Outgoing Username            | Username w/o mail.i2p   | idki2p     |
++------------------------------+-------------------------+------------+
 </code></pre>
     <div id="sourcecode">
       <span id="sourcehead">
